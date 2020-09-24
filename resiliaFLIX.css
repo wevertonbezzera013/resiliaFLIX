@@ -1,0 +1,229 @@
+body {
+    background-color: rgba(255, 238, 0, 0.76);
+}
+
+header {
+    background-color: black;
+    height: 140px;
+}
+
+footer {
+  height: 200px;
+  background: black;
+
+}
+
+
+
+
+
+.cabecadiv {
+    margin-left: 40px;
+}
+
+.titulo {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.titulo a {
+    color: rgba(255, 238, 0, 0.76);
+    text-decoration: none;
+    
+}
+
+.itens {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-left: solid rgba(255, 238, 0, 0.76);
+    margin-top: 50px;
+    margin-right: 40px;
+    list-style: none;
+
+}
+
+.cabeca a {
+    color: rgba(255, 238, 0, 0.76);
+    text-decoration: none;
+    margin-left: 15px;
+    transition: 1s all;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+  .cabeca a:hover{
+    background-color: rgba(255, 238, 0, 0.76);
+    color: black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #262626;
+    font-size: 40px;
+    font-weight: 600;
+    transition: .3s;
+    z-index: 1;
+    
+    a:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-top: 2px solid #262626;
+      border-bottom: 2px solid #262626;
+      transform: scaleY(2);
+      opacity: 0;
+      transition: .3s all;
+    }
+    a:after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #262626;
+      transform: scale(0);
+      opacity: 0;
+      transition: .3s;
+      z-index: -1;
+    }
+
+  }
+
+.lancamento {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  height: 80px;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    transition: 0.5s all;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    transition: 0.5s all;
+  }
+  
+  .cursor:hover {
+    cursor: pointer;
+    transition: 0.5s all;
+    transform: scale(1.2);
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    transform: scale(1.2);
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+}
+.rodape-titulo {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 10px;
+  text-decoration: none;
+
+}
+
+.rodape-titulo a {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgba(255, 238, 0, 0.76);
+  margin-left: 50px;
+}

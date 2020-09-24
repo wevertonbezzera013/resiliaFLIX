@@ -1,0 +1,14 @@
+.cabeca .cabecadiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.itens {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
