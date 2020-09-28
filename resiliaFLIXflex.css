@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 50px;
 
 }
 .itens {
@@ -11,4 +12,44 @@
 footer {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*parte mobile*/
+
+@media(max-width: 768px){
+    .itens {
+        flex-direction: column;
+    }
+
+    .cabeca{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .cabecadiv {
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+
+    .cabeca .cabecadiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .itens {
+        display: flex;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
