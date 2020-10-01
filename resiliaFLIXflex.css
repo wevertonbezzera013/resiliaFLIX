@@ -38,7 +38,9 @@ footer {
 
 
     .cabeca .cabecadiv {
-
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
     }
     .itens {
