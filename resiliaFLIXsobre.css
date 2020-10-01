@@ -111,9 +111,8 @@ footer {
 }
 
 .rodape-titulo {
-  font-size: 50px;
+
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-top: 10px;
   text-decoration: none;
 
 }
@@ -124,5 +123,4 @@ footer {
   margin-top: 10px;
   text-decoration: none;
   color: rgba(255, 238, 0, 0.76);
-  margin-left: 50px;
 }
