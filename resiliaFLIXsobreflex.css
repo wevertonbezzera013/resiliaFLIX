@@ -9,6 +9,13 @@
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 50px;
 
-
+    
+}
+.rodape-titulo {
+    margin-right: 150px;
 }
